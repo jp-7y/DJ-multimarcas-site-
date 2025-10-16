@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background: orange;
+  color: #111;
+  padding: 20px 0;
+}
+
+.colecoes {
+  padding: 20px;
+}
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.produto {
+  background: #222;
+  border-radius: 12px;
+  padding: 15px;
+  width: 200px;
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background: #000;
+  padding: 15px;
+  font-size: 14px;
+  margin-top: 30px;
+}
